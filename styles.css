@@ -8,6 +8,24 @@ mark {
     background-color: rgb(6, 166, 16);
 }
 
+/* Estilos para el menú */
+header {
+    background-color: #6b0505;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 footer {
     background-color: #6a0303;
     color: #fff;
@@ -50,5 +68,21 @@ th, td {
 #p1 + table {
     margin-bottom: 30px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Esto centra horizontalmente la imagen */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+h2 {
+    margin-top: 20px;
+    text-align: center; /* Esto centra horizontalmente el texto */
+}
 
+div {
+    margin-bottom: 40px;
+    text-align: center; /* Esto centra horizontalmente el contenido del div */
+}
